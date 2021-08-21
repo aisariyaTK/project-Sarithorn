@@ -1,9 +1,8 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-
 .container {
     max-width: 1200px;
     width: 100%;
@@ -13,7 +12,7 @@
 header {
     width: 100%;
     height: 587px;
-    background-image: url("../img/article/Screen\ Shot\ 2564-05-29\ at\ 16.25.14.png");
+    background-image: url("../img/promotion/happy-young-asian-family-play-together-couch-home-chinese-mother-father-child-daughter-enjoying-happy-relax-spending-time-together-modern-living-room-evening.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,7 +157,7 @@ a.closebtn:hover {
 }
 
 .link {
-    margin-top: 50px;
+    margin: 50px 0;
 }
 .link a {
     text-decoration: none;
@@ -168,15 +167,39 @@ a.closebtn:hover {
     padding: 0 10px;
 }
 
-.header {
-    margin-top: 30px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+.container1 {
+    max-width: 220px;
+    width: 100%;
+    margin: 0 auto;
 }
-.header p {
-    font-size: 32px;
-    padding: 0 20px;
+
+.grid-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #F4F4F4;
+    border-radius: 50px;
+}
+.grid-link a:nth-child(1) {
+    color: #000;
+    font-size: 18px;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.grid-link a:nth-child(2) {
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 20px;
+    text-decoration: none;
+    background-color: #F77E0B;
+    border-radius: 50px;
+}
+.grid-link a:hover {
+    color: #fff;
+    border-radius: 50px;
+    background-color: #F77E0B;
 }
 
 .grid-item {
@@ -232,20 +255,20 @@ a.closebtn:hover {
     padding: 50px 0;
     justify-content: center;
 }
-
+  
 .pagination a {
     color: black;
     float: left;
     padding: 10px 16px;
     text-decoration: none;
 }
-
+  
 .pagination a.active {
     background-color: #F77E0B;
     color: white;
     border-radius: 5px;
 }
-
+  
 .pagination a:hover:not(.active) {
     background-color: #ddd;
     border-radius: 5px;
